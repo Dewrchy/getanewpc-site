@@ -1,34 +1,76 @@
-<h1>Mini konfiguráció</h1>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Details</title>
 
-<div style="max-width:900px; margin:0 auto; padding:20px;">
-    <div style="background:#fff; padding:30px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); margin-bottom:30px;">
-    <img src="img/mini-collage.png" alt="Mini konfiguráció" 
-         style="width:100%; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+    <!-- Egységes tipográfia -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Globális konténer */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Kártya dizájn */
+        .card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Képek egységes stílusa */
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Szöveg stílus */
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Kollázs kártya -->
+    <div class="card">
+        <img src="img/collage.jpg" alt="Kollázs">
     </div>
 
-<div style="background:#fff; padding:30px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); margin-bottom:30px;">
-<h2>Specifikációk</h2>
-<ul>
-    <li>8 GB RAM</li>
-    <li>512 GB NVMe SSD</li>
-    <li>1000 GB belső SSD</li>
-    <li>Intel Core i3 processzor</li>
-    <li>1 GbE LAN</li>
-    <li>HDMI + DisplayPort</li>
-    <li>RTX3050 6GB videokártya</li>
-</ul>
-<h2>Kinek ajánlom?</h2>
-<p>Otthonra, tanuláshoz, filmnézéshez, könnyed játékhoz.</p>
+    <!-- Szöveges rész kártyában -->
+    <div class="card">
+        <p>
+            Itt jön a szöveges rész, amit szeretnél szépen megjeleníteni.
+            Ugyanabban a stílusban, mint a főoldalon: letisztult, elegáns,
+            egységes spacinggel és tipográfiával.
+        </p>
+    </div>
 
-<h2>Miért jó?</h2>
-<p>Kicsi, halk, gyors, és nem foglal sok helyet.</p>
+    <!-- PDF kártyában -->
+    <div class="card">
+        <iframe 
+            src="pdf/Mini-Details.pdf"
+            style="width:100%; height:900px; border:none; border-radius:10px; 
+                   box-shadow:0 0 10px rgba(0,0,0,0.1);">
+        </iframe>
+    </div>
 
-<div class="price">389 900 Ft</div>
 </div>
-<h2>Részletes specifikáció (PDF)</h2>
-<iframe src="pdf/Mini-Details.pdf"
-        style="width:100%; height:900px; border:none; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
-</iframe>
 
-<a class="btn" href="index.html">Vissza a főoldalra</a>
-</div>
+</body>
+</html>
