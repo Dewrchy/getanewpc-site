@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Medium Details</title>
 
+    <!-- Egységes tipográfia -->
+    <style>
+        h1 {
+            text-align: center;
+            margin-top: 0;
+            }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Globális konténer */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #0077cc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background: #005fa3;
+        }
+        /* Kártya dizájn */
+        .card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Képek egységes stílusa */
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Szöveg stílus */
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+       <h1>Medium konfiguráció</h1>
+    </div>
+
+    <!-- Kollázs kártya -->
+    <div class="card">
+        <img src="img/medium-collage.png" alt="Kollázs">
+    </div>
+
+    <!-- Szöveges rész kártyában -->
+    <div class="card">
+<h2>Specifikációk</h2>
+<ul>
+    <li>32 GB RAM</li>
+    <li>2 TB NVMe SSD</li>
+    <li>2000 GB belső SSD</li>
+    <li>Intel Core ultra 7 processzor</li>
+    <li>5 GbE LAN + WiFi 7</li>
+    <li>HDMI 2.1b + DisplayPort 2.1</li>
+    <li>RTX5080 16GB videokártya</li>
+</ul>
+
+<h2>Kinek ajánlom?</h2>
+<p>Játék 4K felbontással, Stream-elésre, tanuláshoz, filmnézéshez.</p>
+
+<h2>Miért jó?</h2>
+<p>Mert tartós alkatrészekből épített, halk, gyors, és csúcs teljesítményre képes PC.</p>
+
+<div class="price">1 584 900 Ft</div>
+<h2>Részletes specifikáció (PDF)</h2>
+
+    </div>
+
+    <!-- PDF kártyában -->
+    <div class="card">
+        <iframe 
+            src="pdf/Performance-Details.pdf?nocache12346"
+            style="width:100%; height:900px; border:none; border-radius:10px; 
+                   box-shadow:0 0 10px rgba(0,0,0,0.1);">
+        </iframe>
+    </div>
+  <div style="text-align:center; margin-top:40px;">
+    <a class="btn" href="mailto:info@getanewpc.com?subject=Medium%20ajánlat%20kérés">Ajánlat kérés</a>
+    <a class="btn" href="index.html" style="margin-left:20px;">Vissza a főoldalra</a>
+  </div>
+
+</div>
+<footer>
+    © 2026 Get a New PC – Minden jog fenntartva
+</footer>
+
+</body>
+</html>
